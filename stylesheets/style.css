@@ -1,0 +1,18 @@
+@import "reset.css";/* сбрoc настроек браузера */
+@import "content.css"; /* контент / содержимое  */
+@import "adaptive.css";/* адаптивность */
+
+
+
+@font-face {
+    font-family:"MrPalker-Regular";
+    src: url("../fonts/MrPalkerDadsonCond-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    }
+@font-face {
+    font-family:"Panama-Italic";
+    src: url("../fonts/Panama\ Italic.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    }

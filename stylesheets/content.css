@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0E0E0E
+}
+
+body {
+  height: 4000px;
+}
+
+.holoports {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+}
+
+.firstHoloport {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.f-H {
+  width: 1028px;
+  height: 578px;
+  background: linear-gradient(0deg, #8D8D8D 0%, #8D8D8D 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(..//img/holoports.gif) lightgray 50% / contain no-repeat;
+}
+
+.secondHoloport {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* overflow: hidden;  */
+}
+
+
+.group {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+
+
+.overlap-group {
+  width: 100%;
+  height: 100%;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.s-H {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.2s linear;
+}
+
+
+
+
+
+.textBlock {
+  position: relative;
+  color: #ffffff;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  height: 10%;
+}
+
+.header {
+  position: relative;
+  width: 1070px;
+  margin-top: -1px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 144px;
+  letter-spacing: 0;
+}
+
+.fridges {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 144px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 144px;
+}
+
+
+.teleports {
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 144px;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 330px;
+  /* top: 204px;
+  left: 740px; */
+  font-weight: 400;
+  color: var(--whitewhite);
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 25.1px;
+}
+
+
+
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.frame .div {
+  display: flex;
+  align-items: flex-start;
+  gap: 181px;
+  position: relative;
+}
+
+
+
+.frame .div-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 56px;
+  position: relative;
+}
+
+.frame .div-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.frame .ellipse {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.frame .element {
+  width: 35px;
+  height: 74px;
+  position: absolute;
+  top: 33px;
+  left: 52px;
+}
+
+.frame .text-wrapper {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 175px;
+  letter-spacing: 0;
+  line-height: 171.5px;
+  white-space: nowrap;
+}
+
+.frame .rectangle {
+  width: 140px;
+  height: 140px;
+  position: relative;
+}
+
+.frame .div-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 214px;
+  position: relative;
+}
+
+.frame .img {
+  width: 93px;
+  height: 140px;
+  position: relative;
+}
+
+.frame .element-2 {
+  width: 47px;
+  height: 74px;
+  position: absolute;
+  top: 33px;
+  left: 47px;
+}
+
+.frame .div-5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 76px;
+  position: relative;
+}
+
+.frame .div-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.frame .element-3 {
+  width: 44px;
+  height: 76px;
+  position: absolute;
+  top: 32px;
+  left: 48px;
+}
+
+.frame .rectangle-2 {
+  width: 210px;
+  height: 140px;
+  position: relative;
+}
+
+.frame .div-7 {
+  display: flex;
+  align-items: flex-start;
+  gap: 92px;
+  position: relative;
+}
+
+.frame .rectangle-3 {
+  width: 116px;
+  height: 140px;
+  position: relative;
+}
+
+.frame .element-4 {
+  width: 46px;
+  height: 74px;
+  position: absolute;
+  top: 33px;
+  left: 47px;
+}
